@@ -1,6 +1,6 @@
 export const importInvalidApprenantListWithValidMapping = () => ({invalidApprenantList, validApprenantFieldsMapping});
 
-export const importValidApprenantListWithInvalidMapping = () => ({validApprenantList, invalidApprenantFieldsMap});
+export const importValidApprenantListWithInvalidMapping = () => ({validApprenantList, invalidApprenantFieldsMapping});
 
 export const importValidApprenantListWithValidMapping = () => ({validApprenantList, validApprenantFieldsMapping});
 
@@ -100,7 +100,7 @@ const validApprenantFieldsMapping = {
     campusName: "ecole",
 };
 
-const invalidApprenantFieldsMap = {
+const invalidApprenantFieldsMapping = {
     firstName: "prenom",
     lastName: "nom",
     email: "email",

@@ -14,9 +14,9 @@ const { invalidApprenantList, validApprenantFieldsMapping } = importInvalidAppre
 importApprenantList(invalidApprenantList, validApprenantFieldsMapping);
 
 // Liste d'apprenants invalide (champs manquants, type non valide) avec mapping valide
-const { validApprenantList, invalidApprenantFieldsMap } = importValidApprenantListWithInvalidMapping();
+const { validApprenantList, invalidApprenantFieldsMapping } = importValidApprenantListWithInvalidMapping();
 
-importApprenantList(validApprenantList, invalidApprenantFieldsMap as ApprenantFieldNamesMapping);
+importApprenantList(validApprenantList, invalidApprenantFieldsMapping as ApprenantFieldNamesMapping);
 
 // Liste d'apprenants valide avec mapping valide
 const { validApprenantList: validApprenantList2, validApprenantFieldsMapping: validApprenantFieldsMapping2  } = importValidApprenantListWithValidMapping();
